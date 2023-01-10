@@ -1,0 +1,45 @@
+.menu{
+    text-align: center;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    width: 100px;
+}
+.menu a:hover{
+    background-color: #ccc;
+}
+.header{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    
+    padding: 200px 0;
+    background-image:url(img/header-bg.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.header a{
+    background-color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+h2{
+    text-align: center;
+}
+.text-wrapper{
+    display:flex; 
+    
+}
+.text{
+    border: 1px solid black;
+    display: inline-block;
+
+}
+.text p{
+    text-align: center;
+    
+}
+/* отцентровать блоки с текстом */
